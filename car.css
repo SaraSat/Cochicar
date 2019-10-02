@@ -1,39 +1,58 @@
-body{
+body {
     color: #2c302e;
     background-color: rgb(171, 206, 236);
 }
-h1{
-      text-align: center;
+
+h1 {
+    text-align: center;
 }
 
-h1,h2,p{
-    
-  
-    font-family:'Permanent Marker', cursive;
-
+h1, h2, p {
+    font-family: 'Permanent Marker', cursive;
 }
-.formulario{
-    border:1px dashed;
+
+.formulario {
+    border: 1px dashed;
     width: 15%;
     margin-left: 3%;
     padding: 1% 5% 5% 1%;
     border-radius: 2%;
     background-color: #dddddd;
     opacity: 25%;
-    
 }
-.formulario caption{
+
+.formulario caption {
     padding-bottom: 5%;
     font-size: 2em;
 }
 
-.formulario input{
+.formulario input {
     background-color: #a3d6da;
     margin: 5% 0% 0% 25%;
-    padding:3%;
-
+    padding: 3%;
 }
-.formulario button{
+
+.formulario button {
     border: 1em solid;
 }
 
+div {
+    width: 20em;
+    height: 30em;
+    display: inline-block;
+    padding: 3em;
+}
+
+.fondo_claro{
+    background: #abceec;
+}
+.fondo_oscuro{
+    background: #89a894;
+}
+.desplegables{
+    background: #8f91a2
+    ;
+}
+.letra{
+    background: #8f91a2;
+}
