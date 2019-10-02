@@ -14,13 +14,16 @@ h1,h2,p{
 }
 .formulario{
     border:1px dashed;
-    width: 15%;
     margin-left: 3%;
     padding: 1% 5% 5% 1%;
     border-radius: 2%;
-    background-color: #dddddd;
+    background-color: #f0f2ef;
     opacity: 25%;
     
+    
+}
+.formulario tr, td{
+    text-align: center;
 }
 .formulario caption{
     padding-bottom: 5%;
@@ -28,12 +31,22 @@ h1,h2,p{
 }
 
 .formulario input{
-    background-color: #a3d6da;
+    background-color: #abceec;
     margin: 5% 0% 0% 25%;
     padding:3%;
 
 }
-.formulario button{
-    border: 1em solid;
+.boton{
+    width: 7em;
+    height: 4em;
+    border: 1% solid;
+    border-radius: 15%;
+    color: #f0f2ef;
+    background-color: #505a5b;
+    margin:4% 0% 0% 40%;
+    font-weight: bolder;
+    font-size-adjust: 1em;
+
 }
+
 
