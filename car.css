@@ -13,17 +13,19 @@ h1,h2,p{
 }
 .formulario{
     border:1px dashed;
-    position: relative;
     width: 15%;
-    margin-left:  43%;
-    padding: 2% ;
+    margin-left: 3%;
+    padding: 1% 5% 5% 1%;
     border-radius: 2%;
     
+}
+.formulario caption{
+    padding-bottom: 5%;
+    font-size: 2em;
 }
 
 .formulario input{
     background-color: #aac0aa;
-    
-    
 
 }
+
