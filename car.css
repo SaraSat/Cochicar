@@ -1,5 +1,6 @@
 body{
     color: #2c302e;
+    background-color: rgb(171, 206, 236);
 }
 h1{
       text-align: center;
@@ -17,6 +18,8 @@ h1,h2,p{
     margin-left: 3%;
     padding: 1% 5% 5% 1%;
     border-radius: 2%;
+    background-color: #dddddd;
+    opacity: 25%;
     
 }
 .formulario caption{
@@ -25,7 +28,12 @@ h1,h2,p{
 }
 
 .formulario input{
-    background-color: #aac0aa;
+    background-color: #a3d6da;
+    margin: 5% 0% 0% 25%;
+    padding:3%;
 
+}
+.formulario button{
+    border: 1em solid;
 }
 
