@@ -6,7 +6,7 @@ body{
     float: left;
     position: relative;
     margin-left: 5%;
-    width: 50%;
+    width: 45%;
 }
 h1{
       text-align: center;
@@ -21,6 +21,11 @@ h1,h2{
 p{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 20%;
+
 }
 .formulario{
 
