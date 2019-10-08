@@ -1,13 +1,21 @@
 body{
     color: #2c302e;
-    background-color: rgb(171, 206, 236);
+    
 }
 .bloque{
-    float: left;
+   
+    float: right;
     position: relative;
-    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
     width: 45%;
 }
+.texto{
+     background-color: rgb(171, 206, 236);
+     padding: 3%;
+     border-radius: 10%;
+}
+
 h1{
       text-align: center;
 }
@@ -22,15 +30,20 @@ p{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
 }
-.scroll{
-    overflow-y: scroll;
-    height: 20%;
-
+.icono{
+    float: left;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#icono{
+    border-radius: 110%;
 }
 .formulario{
-
+    position: relative;
+    margin-top: 3%;
+    margin-left: 35%;
     border:1px dashed;
-    margin-left: 3%;
     padding: 3% 5% 5% 3%;
     border-radius: 2%;
     background-color: #f0f2ef;
@@ -64,5 +77,37 @@ a{
     color: #8f91a2;
 
 }
+.fondos  {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+    padding: 2%;
+   
+    width: 40%;
+    height: 60%;
+}
+
+#imagen{
+    background-image: url("mapa1.jpg");
+    border-image-width: 20%;
+}
+
+
+#home{
+    background: #9dbcda;
+}
+#fondo_claro{
+    background: #c6dbee;
+}
+#fondo_oscuro{
+    background: #89a894;
+}
+#desplegables{
+    background: #8f91a2;
+}
+
 
 
